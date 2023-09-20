@@ -6,26 +6,45 @@ html,
     margin: 0;
     box-sizing: border-box;
     font-family: 'Merriweather', serif;
-    background-color: pink;
+    background-color: lightpink;
 }
 .container {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-  
+    justify-content: space-around
+
 }
 
 .card {
     font-size: 3rem;
-    background-color: lavender;
+    background-color: lavenderblush;
     padding: 2%;
+    margin: 2rem 2rem;
+    border: 1px solid lavenderblush;
+    border-radius: 5px;
+   
+   
 }
 .tea {
-    background-color: lightcyan;
+    background-color: pink;
     font-size: 5rem;
     width: 140rem;
     text-align: center;
-    margin: 4rem auto;
+    margin: 6rem auto;
+    border: 3px solid palevioletred;
+    border-radius: 5px;
+}
+.hello {
+    position: absolute;
+    top: 35px;
+    left: 10px;
+   
+}
+.hello2 {
+    position: absolute;
+    top: 7px;
+    left: 1650px;
+
 }
