@@ -24,6 +24,7 @@ html,
     margin: 2rem 2rem;
     border: 1px solid lavenderblush;
     border-radius: 5px;
+    box-shadow: 10px 10px hotpink;
    
    
 }
@@ -35,6 +36,7 @@ html,
     margin: 6rem auto;
     border: 3px solid palevioletred;
     border-radius: 5px;
+    box-shadow: 10px 10px hotpink;
 }
 .hello {
     position: absolute;
