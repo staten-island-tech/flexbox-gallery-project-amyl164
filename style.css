@@ -6,6 +6,8 @@ html,
     margin: 0;
     box-sizing: border-box;
     font-family: 'Merriweather', serif;
+}
+body {
     background-color: lightpink;
 }
 .container {
@@ -15,6 +17,13 @@ html,
     flex-wrap: wrap;
     justify-content: space-around
 
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin: 3%;
+    margin-left: 2%;
+    margin-right:2%;
 }
 
 .card {
@@ -28,7 +37,7 @@ html,
    
    
 }
-.tea {
+.cardtitle {
     background-color: pink;
     font-size: 5rem;
     width: 140rem;
@@ -38,15 +47,15 @@ html,
     border-radius: 5px;
     box-shadow: 10px 10px hotpink;
 }
-.hello {
-    position: absolute;
-    top: 35px;
-    left: 27px;
-   
+.cardimg {
+    width: 500px;
 }
-.hello2 {
-    position: absolute;
-    top: 7px;
-    left: 1680px;
-
+.hello {
+   width: 200px;
+}
+h4 {
+    background-color: lightpink;
+}
+h3 {
+    background-color: lightpink;
 }
