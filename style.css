@@ -21,9 +21,7 @@ body {
 .header {
     display: flex;
     justify-content: space-around;
-    margin: 3%;
-    margin-left: 2%;
-    margin-right:2%;
+    width: 200rem;
 }
 
 .card {
@@ -34,9 +32,13 @@ body {
     border: 1px solid lavenderblush;
     border-radius: 5px;
     box-shadow: 10px 10px hotpink;
-   
-   
+    transition: all 0.3s;
+
 }
+.card:hover {
+   transform: scale(0.9);
+}
+
 .cardtitle {
     background-color: pink;
     font-size: 5rem;
@@ -49,6 +51,10 @@ body {
 }
 .cardimg {
     width: 500px;
+    transition: all 0.3s
+}
+.cardimg:hover{
+    transform: rotate(360deg);
 }
 .hello {
    width: 200px;
@@ -58,4 +64,7 @@ h4 {
 }
 h3 {
     background-color: lightpink;
+}
+h3:hover {
+  background-color: blueviolet;
 }
