@@ -20,8 +20,11 @@ body {
 }
 .header {
     display: flex;
-    justify-content: space-around;
-    width: 200rem;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around
+    
 }
 
 .card {
