@@ -28,15 +28,18 @@ body {
     font-size: 3rem;
     background-color: lavenderblush;
     padding: 2%;
-    margin: 2rem 2rem;
+    margin: 2rem 0;
     border: 1px solid lavenderblush;
     border-radius: 5px;
     box-shadow: 10px 10px hotpink;
     transition: all 0.3s;
+    width: 23%;
+    height: 40vh;
+   
 
 }
 .card:hover {
-   transform: scale(0.9);
+   transform: rotate(360deg)
 }
 
 .cardtitle {
@@ -48,23 +51,38 @@ body {
     border: 3px solid palevioletred;
     border-radius: 5px;
     box-shadow: 10px 10px hotpink;
+   
 }
 .cardimg {
-    width: 500px;
+    outline-offset: 1rem;
+    width: 250px;
     transition: all 0.3s
+   
 }
 .cardimg:hover{
-    transform: rotate(360deg);
+    outline: solid 1rem #FF10F0;
+    transform: scale(0.9)
+     
+    
 }
 .hello {
    width: 200px;
 }
 h4 {
     background-color: lightpink;
+    transition: all 0.3s;
 }
+
 h3 {
     background-color: lightpink;
+    transition: all 0.3s;
 }
 h3:hover {
-  background-color: blueviolet;
+  transform: translate(0px, -75%);
+  background-color: #FF10F0;
+}
+
+h4:hover { 
+ transform: translate(0px, 75%);
+ background-color: #FF10F0;
 }
