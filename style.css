@@ -17,11 +17,13 @@ html,
 
 }
 .header {
+    animation: headerslide 3s;
     display: flex;
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
     justify-content: space-around
+    
     
 }
 
@@ -116,3 +118,13 @@ h4:hover {
       background-position: 100%;
     }
   }
+
+@keyframes headerslide {
+    from {
+        transform: translateY(-20vh);
+    }
+    to {
+        transform: translateY(0);
+    }
+  
+}
